@@ -24,7 +24,7 @@ class Engine(subject.Subject):
         self.test_event = subject.Event()
 
     def update_event1(self):
-        self.update(self.test_event, [])
+        self.update(self.test_event)
 
     def update_event1_with_args(self):
         self.update(self.test_event, [1, 2, 3])
